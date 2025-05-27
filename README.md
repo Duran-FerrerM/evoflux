@@ -16,10 +16,10 @@ Brief table summarizing the samples used in the study
 
 
 ## Code
-Here, we provide some html notebooks for reproducing some figures of the manuscript including:
-[Clinical analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)
-[Gene expression](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html) 
-[Methylation changes in longitudinal CLL samples](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html).
+Here, we provide some html notebooks for reproducing some figures of the manuscript including:<br />
+[Clinical analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)<br />
+[Gene expression](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html) <br />
+[Methylation changes in longitudinal CLL samples](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html).<br />
 
 Please, note that further notebooks will be uploaded soon! :-)
 
