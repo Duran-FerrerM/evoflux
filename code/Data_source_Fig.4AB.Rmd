@@ -1,0 +1,98 @@
+---
+title: "Fig4A,B code"
+author:
+  - name: "Gabbut and Duran-Ferrer, 2025"
+    # affiliation: "Institut d'Investigacions Biomèdiques Augusti Pi i Sunyer (IDIBAPS), Barcelona, Spain."
+    # email: "maduran@clinic.cat"
+date: "30/01/2025"
+output: 
+    BiocStyle::html_document:
+      toc: true
+      toc_float: true
+      number_sections: true
+      code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load data and R libraries
+First, we load necessary R libraries.
+```{r}
+library(data.table)
+library(janitor)
+library(dplyr)
+library(ggpubr)
+library(pals)
+library(openxlsx)
+
+
+options(stringsAsFactors = F,max.print = 10000,error=NULL,
+        "openxlsx.dateFormat" = "dd/mm/yyyy"
+)
+
+
+```
+
+Then, we load the data source necessary to generate all the figures.
+
+```{r}
+##load data source
+df <- openxlsx::read.xlsx("../../Revision/Results/Longitudinal_meth_data/Data_source_methylation_Fig.4_SCLL12-SCLL19.xlsx")
+```
+
+# Plotting!
+We loop over the cases and plot
+
+```{r}
+for(case.i in unique(df$case)){
+  
+  p <- 
+    df %>% 
+    filter(case==case.i) %>%
+    mutate(cpgs_diff_abs=case_when(cpgs_diff_abs>= 0.25 ~ 0.25,
+                                   .default = cpgs_diff_abs
+    )
+    ) %>% 
+    ggplot(aes(x=meth.T2,
+               y=meth.T1,
+               fill=cpgs_diff_abs
+    )
+    )+
+    
+    geom_point(pch=21,stroke=0.1,size=0.6)+
+    scale_fill_gradientn("Absolute methylation\ndifference",
+                         colours = viridis(100) %>% rev()
+    )+
+    facet_grid(~comparison)+
+    theme_classic()+
+    theme(text = element_text(colour = "grey0",size = 5),
+          panel.grid.major = element_line(linewidth = 0.075),
+          # panel.grid.minor.x = element_line(linewidth = 0.025),
+          strip.placement = "out",
+          strip.background = element_blank(),
+          strip.text =  element_text(angle = 0),
+          plot.margin = unit(c(0,0,0,0),"pt"),
+          line=element_line(linewidth = 0.1),
+          legend.position = "bottom",
+          legend.box.margin=margin(-5,-5,-5,-5),
+          # legend.justification="top",
+          legend.text = element_text(angle = 90,vjust = 0.5,hjust = 0.5),
+          plot.background =element_blank(),
+          legend.key.size = unit(5,"pt")
+    )
+  print(p)
+  
+}
+
+```
+
+# Session info
+
+```{r}
+print(sessionInfo())
+
+```
