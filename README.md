@@ -21,16 +21,16 @@ Full code and explanations are available [here](https://github.com/CalumGabbutt/
 
 ### fCpG methylation and aging
 As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.
-[Analyses]()
+[Analyses](https://duran-ferrerm.github.io/evoflux/fCpGs_Aging.html)
 
 ### fCpG methylation and (lack) of genetic confounding
-We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, longitudinal sampling as well as long-read nanopore data discarded clearly any significant genetic confounding on the methylation values of fCpGs.
-[Analyses 1]()
-[Analyses 2]()
+We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs.
+[Analyses 1](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html)
+[Analyses 2](https://duran-ferrerm.github.io/evoflux/SNPs_vs_fCpGs.html)
 
 ### fCpG and gene expression
 RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.
-[Gene expression](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
+[Analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
 
 ### fCpG methylation in longitudinal samples
 [Methylation changes in longitudinal CLL samples](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html).
