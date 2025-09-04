@@ -16,20 +16,24 @@ Brief table summarizing the samples used in the study
 ## Code
 We provide here code for reproducing some figures and analyses from our manuscript, as well as additional analyses carried out during the revision process:
 
+### QC to process the data
+Initial quality control (QC) and normalization carried out in the study.
+[QC](https://duran-ferrerm.github.io/evoflux/QC_DNAme_arrays.v.4.1.html)
+
 ### Run EVOFLUx
 Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
 
 ### fCpG methylation and aging
-As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.
+As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.<br>
 [Analyses](https://duran-ferrerm.github.io/evoflux/fCpGs_Aging.html)
 
 ### fCpG methylation and (lack) of genetic confounding
-We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs.
-[Analyses 1](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html)
+We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs.<br>
+[Analyses 1](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html)<br>
 [Analyses 2](https://duran-ferrerm.github.io/evoflux/SNPs_vs_fCpGs.html)
 
 ### fCpG and gene expression
-RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.
+RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.<br>
 [Analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
 
 ### fCpG methylation in longitudinal samples
