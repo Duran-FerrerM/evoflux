@@ -4,13 +4,11 @@ Code accompanying the findings in [Gabbutt and Duran-Ferrer, 2025](https://www.m
 
 Cancer development, progression, and response to treatment are evolutionary processes, but characterising the evolutionary dynamics at sufficient scale to be clinically-meaningful has remained challenging. Here, we develop a new methodology called EVOFLUx, based upon natural DNA methylation barcodes fluctuating over time, that quantitatively infers evolutionary dynamics using only a bulk tumour methylation profile as input. We apply EVOFLUx to 1,976 well-characterised lymphoid cancer samples spanning a broad spectrum of diseases and show that tumour growth rates, malignancy age and epimutation rates vary by orders of magnitude across disease types. We measure that subclonal selection occurs only infrequently within bulk samples and detect occasional examples of multiple independent primary tumours. Clinically, we observe that tumour growth rates are higher in more aggressive disease subtypes, and in two series of chronic lymphocytic leukaemia patients, evolutionary histories are independent prognostic factors. Phylogenetic analyses of longitudinal CLL samples using EVOFLUx detect the seeds of future Richter transformation many decades prior to presentation. We provide orthogonal verification of EVOFLUx inferences using additional genetic and clinical data. Collectively, we show how widely- available, low-cost bulk DNA methylation data precisely measures cancer evolutionary dynamics, and provides new insights into cancer biology and clinical behaviour.
 
-## LICENSE
-LICENSE terms can be found [here](https://github.com/CalumGabbutt/evoflux/blob/main/LICENSE)
-
 ## Overwiew of the samples used in the study
 
-Brief table summarizing the samples used in the study
-![](images/Table.png)
+Brief table summarizing the samples used in the study.
+![](images/Table.png)<br>
+Abbreviations: peripheral blood mononuclear cells (PBMCs); whole blood (WB); precursor B- and T-acute lymphoblastic leukemias (B- and T-ALL, respectively); 149 mantle cell lymphomas (MCL); chronic lymphocytic leukemias (CLL); monoclonal B-cell lymphocytosis (MBL); diffuse large B-cell lymphoma (DLBCL); Richter transformation (RT); multiple myeloma (MM) and monoclonal gammopathy of undetermined significance (MGUS). 
 
 
 ## Code
