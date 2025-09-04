@@ -17,12 +17,26 @@ Brief table summarizing the samples used in the study
 ![](images/Table.png)
 
 
-## Additional Code
-Here, we provide some html notebooks for reproducing some figures of the manuscript including:<br />
-[Clinical analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)<br />
+## Code
+Here, we provide some html notebooks for reproducing some figures and analyses from our manuscript:<br />
+
+### fCpG methylation and aging
+As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent; extended data fig. 3c), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.
+
+### fCpG and gene expression
+RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.
 [Gene expression](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html) <br />
+
+
+### fCpG methylation in longitudinal samples
 [Methylation changes in longitudinal CLL samples](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html).<br />
 Please, note that further notebooks will be uploaded soon! :-)
+
+### Clinical analyses
+We show how evolutionary variables derived from EVOFLUx have a strong clinical impact in 2 series of chronic lymphocytic leukemia (CLL), considering other well established biological and clinical parameters.
+[Clinical analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)<br />
+
+
 
 ## Data availability
 No new methylation bead array data was generated in the course of this study. The harmonised and filtered methylation matrix was deposited using [Zenodo](https://doi.org/10.5281/zenodo.15479736).
