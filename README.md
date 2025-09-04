@@ -4,10 +4,6 @@ Code accompanying the findings in [Gabbutt and Duran-Ferrer, 2025](https://www.m
 
 Cancer development, progression, and response to treatment are evolutionary processes, but characterising the evolutionary dynamics at sufficient scale to be clinically-meaningful has remained challenging. Here, we develop a new methodology called EVOFLUx, based upon natural DNA methylation barcodes fluctuating over time, that quantitatively infers evolutionary dynamics using only a bulk tumour methylation profile as input. We apply EVOFLUx to 1,976 well-characterised lymphoid cancer samples spanning a broad spectrum of diseases and show that tumour growth rates, malignancy age and epimutation rates vary by orders of magnitude across disease types. We measure that subclonal selection occurs only infrequently within bulk samples and detect occasional examples of multiple independent primary tumours. Clinically, we observe that tumour growth rates are higher in more aggressive disease subtypes, and in two series of chronic lymphocytic leukaemia patients, evolutionary histories are independent prognostic factors. Phylogenetic analyses of longitudinal CLL samples using EVOFLUx detect the seeds of future Richter transformation many decades prior to presentation. We provide orthogonal verification of EVOFLUx inferences using additional genetic and clinical data. Collectively, we show how widely- available, low-cost bulk DNA methylation data precisely measures cancer evolutionary dynamics, and provides new insights into cancer biology and clinical behaviour.
 
-## Running EVOFLUx
-
-Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux)
-
 ## LICENSE
 LICENSE terms can be found [here](https://github.com/CalumGabbutt/evoflux/blob/main/LICENSE)
 
@@ -18,24 +14,31 @@ Brief table summarizing the samples used in the study
 
 
 ## Code
-Here, we provide some html notebooks for reproducing some figures and analyses from our manuscript:<br />
+We provide here code for reproducing some figures and analyses from our manuscript, as well as additional analyses carried out during the revision process:
+
+### Run EVOFLUx
+Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
 
 ### fCpG methylation and aging
-As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent; extended data fig. 3c), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.
+As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.
+[Analyses]()
+
+### fCpG methylation and (lack) of genetic confounding
+We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, longitudinal sampling as well as long-read nanopore data discarded clearly any significant genetic confounding on the methylation values of fCpGs.
+[Analyses 1]()
+[Analyses 2]()
 
 ### fCpG and gene expression
 RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.
-[Gene expression](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html) <br />
-
+[Gene expression](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
 
 ### fCpG methylation in longitudinal samples
-[Methylation changes in longitudinal CLL samples](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html).<br />
+[Methylation changes in longitudinal CLL samples](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html).
 Please, note that further notebooks will be uploaded soon! :-)
 
 ### Clinical analyses
 We show how evolutionary variables derived from EVOFLUx have a strong clinical impact in 2 series of chronic lymphocytic leukemia (CLL), considering other well established biological and clinical parameters.
-[Clinical analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)<br />
-
+[Clinical analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)
 
 
 ## Data availability
