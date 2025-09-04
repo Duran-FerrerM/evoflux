@@ -31,11 +31,11 @@ As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of
 We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs.<br>
 [Code 1](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html)<br>
 [Code 2](https://duran-ferrerm.github.io/evoflux/SNPs_vs_fCpGs.html)<br>
-[Code 3](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html))<br>
+[Code 3](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html)<br>
 
 ### fCpG and gene expression
 RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.<br>
-[Analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
+[Code](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
 
 ### Clinical analyses
 We show how evolutionary variables derived from EVOFLUx have a strong clinical impact in 2 series of chronic lymphocytic leukemia (CLL), considering other well established biological and clinical parameters.<br>
