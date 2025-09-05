@@ -22,7 +22,7 @@ We validated the fCpG methylation dynamics in matched long-read nanopore and Ill
 [Code 1](https://duran-ferrerm.github.io/evoflux/Nanopore.html)
 
 ### fCpG methylation and (lack) of genetic confounding
-We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs. We also performed inferences with fCpG exclusively mapping to diploid genome, and we dis not find a significant impact on the estimated evolutionary variables.<br>
+We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs. We also performed inferences with fCpG exclusively mapping to diploid genome, and we did not find a significant impact on the estimated evolutionary variables.<br>
 [Code 1](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html), [Code 2](https://duran-ferrerm.github.io/evoflux/SNPs_vs_fCpGs.html), [Code 3](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html), [Code 4](https://duran-ferrerm.github.io/evoflux/CNAs_plots.html)
 
 ### fCpG methylation and aging
