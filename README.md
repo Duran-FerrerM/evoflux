@@ -18,7 +18,7 @@ Initial quality control (QC) and normalization of Illumina arrays (450k and EPIC
 [QC](https://duran-ferrerm.github.io/evoflux/QC_DNAme_arrays.v.4.1.html)
 
 ### fCpGs and epigenetic clocks
-There have been lots of [epigenetic clocks](https://www.nature.com/articles/s41576-024-00807-w) published, but fCpG do not fit into any of these previously reported clocks. Instead, fCpG seem to represent a [previously unrecognized](https://www.nature.com/articles/s41587-021-01109-w) cell-specific and netural lineage markers. We verify fCpGs as "evolving barcodes", which show independent on-going allele specific changes to methylation, uniquely labelling cell lineages.
+There have been lots of [epigenetic clocks](https://www.nature.com/articles/s41576-024-00807-w) published, but fCpG do not fit into any of these previously reported clocks. Instead, fCpG seem to represent a [previously unrecognized](https://www.nature.com/articles/s41587-021-01109-w) cell-specific and netural lineage markers. We verify fCpGs as "evolving barcodes", which show independent on-going allele specific changes to methylation, uniquely labelling cell lineages.<br>
 [fCpGs and epigenetic clocks](https://duran-ferrerm.github.io/evoflux/fCpGs_epiclocks.html)
 
 ### fCpG methylation validation in Nanopore and WGBS data
