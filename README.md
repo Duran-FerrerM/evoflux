@@ -12,30 +12,33 @@ We provide here code for reproducing some figures and analyses from our manuscri
 
 ### QC to process the data
 Initial quality control (QC) and normalization of Illumina arrays (450k and EPIC). The resulting DNA methylation matrix is availalbe in [Zenodo](https://doi.org/10.5281/zenodo.15479736).<br>
-[Code](https://duran-ferrerm.github.io/evoflux/QC_DNAme_arrays.v.4.1.html)
+[QC](https://duran-ferrerm.github.io/evoflux/QC_DNAme_arrays.v.4.1.html)
 
 ### Run EVOFLUx
 Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
 
 ### fCpG methylation validation in Nanopore and WGBS data
 We validated the fCpG methylation dynamics in matched long-read nanopore and Illumina array data as well as in additional whole-genome bisulfite sequencing data.<br>
-[Code 1](https://duran-ferrerm.github.io/evoflux/Nanopore.html)
+[Long-read nanopore data analyses](https://duran-ferrerm.github.io/evoflux/Nanopore.html)
 
 ### fCpG methylation and (lack of) genetic confounding
 We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs. We also performed inferences with fCpG exclusively mapping to diploid genome, and we did not find a significant impact on the estimated evolutionary variables.<br>
-[Code 1](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html), [Code 2](https://duran-ferrerm.github.io/evoflux/SNPs_vs_fCpGs.html), [Code 3](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html), [Code 4](https://duran-ferrerm.github.io/evoflux/CNAs_plots.html)
+[Analyses with Illumina control SNPs](https://duran-ferrerm.github.io/evoflux/Control_SNPs.html)<br>
+[Extensive SNP analyses of fCpGs and "Gap hunting" algorithm](https://duran-ferrerm.github.io/evoflux/SNPs_vs_fCpGs.html)<br>
+[Longitudinal fCpG methylation and genetic evolution](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.4AB.html)<br>
+[CNA plots](https://duran-ferrerm.github.io/evoflux/CNAs_plots.html)
 
 ### fCpG methylation and aging
 As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.<br>
-[Code](https://duran-ferrerm.github.io/evoflux/fCpGs_Aging.html)
+[fCpG dynamics in aging](https://duran-ferrerm.github.io/evoflux/fCpGs_Aging.html)
 
 ### fCpG and gene expression
 RNAseq analysis demonstrated that genes associated with fCpGs have significantly lower expression levels, with no association between fCpG methylation status and associated gene expression in matched cases. In addition, there was no correlation between fCpG methylation and the expression of key DNA methylation modifier genes.<br>
-[Code](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
+[RNA-seq analyses](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.1G.html).
 
 ### Clinical analyses
 We show how evolutionary variables derived from EVOFLUx have a strong clinical impact in 2 series of chronic lymphocytic leukemia (CLL), considering other well established biological and clinical parameters.<br>
-[Code](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)
+[Clinical analyses in CLL](https://duran-ferrerm.github.io/evoflux/Data_source_Fig.5.html)
 
 ### More to come soon...!
 
