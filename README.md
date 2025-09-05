@@ -17,6 +17,10 @@ Initial quality control (QC) and normalization carried out in the study. The res
 ### Run EVOFLUx
 Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
 
+### fCpG methylation validation in Nanopore and WGBS data
+We validated the fCpG methylation dynamics in matched long-read nanopore and Illumina array data as well as in additional whole-genome bisulfite sequencing data.<br>
+[Code 1](https://duran-ferrerm.github.io/evoflux/Nanopore.html)
+
 ### fCpG methylation and aging
 As the DNA methylome is influenced by age, we tested if fCpGs showed evidence of age-dependent epigenetic modulation. In normal blood samples, mean fCpG methylation was not correlated with age, suggesting fluctuations continue throughout life, whereas fCpG methylation variance increased with age. Variance is higher in samples where there has been a recent clonal expansion (i.e. homozygous methylated/unmethylated alleles become more prominent), suggesting fCpGs are detecting age-related clonal expansions of cells of the hematopoietic system.<br>
 [Code](https://duran-ferrerm.github.io/evoflux/fCpGs_Aging.html)
