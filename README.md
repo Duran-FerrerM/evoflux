@@ -23,7 +23,8 @@ There have been lots of [epigenetic clocks](https://www.nature.com/articles/s415
 
 ### fCpG methylation validation in Nanopore and WGBS data
 We validated the fCpG methylation dynamics in matched long-read nanopore and Illumina array data as well as in additional whole-genome bisulfite sequencing data.<br>
-[Long-read nanopore data analyses](https://duran-ferrerm.github.io/evoflux/Nanopore.html)<br>
+[Long-read nanopore methylation analyses](https://duran-ferrerm.github.io/evoflux/Nanopore.html)<br>
+{Long-read nanopore mehylation haplotype blocks](https://duran-ferrerm.github.io/evoflux/Nanopore_haplotypes.html)<br>
 [WGBS data analyses](https://duran-ferrerm.github.io/evoflux/WGBS.html)
 
 ### fCpG methylation and (lack of) genetic confounding
