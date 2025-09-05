@@ -19,7 +19,8 @@ Full code and explanations are available [here](https://github.com/CalumGabbutt/
 
 ### fCpG methylation validation in Nanopore and WGBS data
 We validated the fCpG methylation dynamics in matched long-read nanopore and Illumina array data as well as in additional whole-genome bisulfite sequencing data.<br>
-[Long-read nanopore data analyses](https://duran-ferrerm.github.io/evoflux/Nanopore.html)
+[Long-read nanopore data analyses](https://duran-ferrerm.github.io/evoflux/Nanopore.html)<br>
+[WGBS data analyses](https://duran-ferrerm.github.io/evoflux/WGBS.html)
 
 ### fCpG methylation and (lack of) genetic confounding
 We thouroughtly investigated the possibility that fCpG methylation could be influenced by genetics. Comparison of methylation SNPs vs fCpGs, databse annotations, a data-driven approach capturing possible cancer-specific methylation-genetic confounding, analyses on longitudinal samples, as well as long-read nanopore data discarded any significant genetic confounding on the methylation values of fCpGs. We also performed inferences with fCpG exclusively mapping to diploid genome, and we did not find a significant impact on the estimated evolutionary variables.<br>
