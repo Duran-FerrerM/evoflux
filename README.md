@@ -8,14 +8,18 @@ Cancer development, progression, and response to treatment are evolutionary proc
 Peripheral blood mononuclear cells (PBMCs); whole blood (WB); precursor B- and T-acute lymphoblastic leukemias (B- and T-ALL, respectively); 149 mantle cell lymphomas (MCL); chronic lymphocytic leukemias (CLL); monoclonal B-cell lymphocytosis (MBL); diffuse large B-cell lymphoma (DLBCL); Richter transformation (RT); multiple myeloma (MM) and monoclonal gammopathy of undetermined significance (MGUS). 
 
 ## Code
-We provide here code for reproducing some figures and analyses from our manuscript, as well as additional analyses carried out during the revision process:
+Here, we provide code to perform some analyses of our manuscript the revision process:
+
+### Run EVOFLUx
+Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
 
 ### QC to process the data
 Initial quality control (QC) and normalization of Illumina arrays (450k and EPIC). The resulting DNA methylation matrix is availalbe in [Zenodo](https://doi.org/10.5281/zenodo.15479736).<br>
 [QC](https://duran-ferrerm.github.io/evoflux/QC_DNAme_arrays.v.4.1.html)
 
-### Run EVOFLUx
-Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
+### fCpGs and epigenetic clocks
+There have been lots of [epigenetic clocks](https://www.nature.com/articles/s41576-024-00807-w) published, but fCpG do not fit into any of these previously reported clocks. Instead, fCpG seem to represent a [previously unrecognized](https://www.nature.com/articles/s41587-021-01109-w) cell-specific and netural lineage markers. We verify fCpGs as "evolving barcodes", which show independent on-going allele specific changes to methylation, uniquely labelling cell lineages.
+[fCpGs and epigenetic clocks](https://duran-ferrerm.github.io/evoflux/fCpGs_epiclocks.html)
 
 ### fCpG methylation validation in Nanopore and WGBS data
 We validated the fCpG methylation dynamics in matched long-read nanopore and Illumina array data as well as in additional whole-genome bisulfite sequencing data.<br>
