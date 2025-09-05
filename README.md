@@ -8,7 +8,7 @@ Cancer development, progression, and response to treatment are evolutionary proc
 Peripheral blood mononuclear cells (PBMCs); whole blood (WB); precursor B- and T-acute lymphoblastic leukemias (B- and T-ALL, respectively); 149 mantle cell lymphomas (MCL); chronic lymphocytic leukemias (CLL); monoclonal B-cell lymphocytosis (MBL); diffuse large B-cell lymphoma (DLBCL); Richter transformation (RT); multiple myeloma (MM) and monoclonal gammopathy of undetermined significance (MGUS). 
 
 ## Code
-Here, we provide code to perform some analyses of our manuscript the revision process:
+Here, we provide code to perform some analyses from our manuscript and the revision process:
 
 ### Run EVOFLUx
 Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
