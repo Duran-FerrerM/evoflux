@@ -11,7 +11,7 @@ Peripheral blood mononuclear cells (PBMCs); whole blood (WB); precursor B- and T
 We provide here code for reproducing some figures and analyses from our manuscript, as well as additional analyses carried out during the revision process:
 
 ### QC to process the data
-Initial quality control (QC) and normalization carried out in the study. The resulting DNA methylation matrix can be found [here](https://doi.org/10.5281/zenodo.15479736)<br>
+Initial quality control (QC) and normalization of Illumina arrays (450k and EPIC). The resulting DNA methylation matrix is availalbe in [Zenodo](https://doi.org/10.5281/zenodo.15479736).<br>
 [Code](https://duran-ferrerm.github.io/evoflux/QC_DNAme_arrays.v.4.1.html)
 
 ### Run EVOFLUx
