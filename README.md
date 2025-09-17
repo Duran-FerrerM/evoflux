@@ -1,4 +1,4 @@
-# [Fluctuating DNA methylation tracks cancer evolution at clinical scale](https://www.nature.com/articles/s41586-025-09374-4)
+# Fluctuating DNA methylation tracks cancer evolution at clinical scale
 
 ## Abstract
 Cancer development and response to treatment are evolutionary processes, but characterizing evolutionary dynamics at a clinically meaningful scale has remained challenging. Here we develop a new methodology called EVOFLUx, based on natural DNA methylation barcodes fluctuating over time, that quantitatively infers evolutionary dynamics using only a bulk tumour methylation profile as input. We apply EVOFLUx to 1,976 well-characterized lymphoid cancer samples spanning a broad spectrum of diseases and show that initial tumour growth rate, malignancy age and epimutation rates vary by orders of magnitude across disease types. We measure that subclonal selection occurs only infrequently within bulk samples and detect occasional examples of multiple independent primary tumours. Clinically, we observe faster initial tumour growth in more aggressive disease subtypes, and that evolutionary histories are strong independent prognostic factors in two series of chronic lymphocytic leukaemia. Using EVOFLUx for phylogenetic analyses of aggressive Richter-transformed chronic lymphocytic leukaemia samples detected that the seed of the transformed clone existed decades before presentation. Orthogonal verification of EVOFLUx inferences is provided using additional genetic data, including long-read nanopore sequencing, and clinical variables. Collectively, we show how widely available, low-cost bulk DNA methylation data precisely measure cancer evolutionary dynamics, and provides new insights into cancer biology and clinical behaviour.<br>
@@ -11,7 +11,7 @@ Cancer development and response to treatment are evolutionary processes, but cha
 Peripheral blood mononuclear cells (PBMCs); whole blood (WB); precursor B- and T-acute lymphoblastic leukemias (B- and T-ALL, respectively); 149 mantle cell lymphomas (MCL); chronic lymphocytic leukemias (CLL); monoclonal B-cell lymphocytosis (MBL); diffuse large B-cell lymphoma (DLBCL); Richter transformation (RT); multiple myeloma (MM) and monoclonal gammopathy of undetermined significance (MGUS).
 
 ## Code
-Here, we provide code to perform some analyses from our manuscript and the revision process:
+Here, we provide code to perform some analyses from our [manuscript](https://www.nature.com/articles/s41586-025-09374-4) and the [revision process](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09374-4/MediaObjects/41586_2025_9374_MOESM4_ESM.pdf):
 
 ### Run EVOFLUx
 Full code and explanations are available [here](https://github.com/CalumGabbutt/evoflux).
